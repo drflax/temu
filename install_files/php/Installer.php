@@ -17,7 +17,7 @@ class Installer {
 		array('name' => 'pdo', 'type' => 'extension', 'expected' => true),
 		array('name' => 'pdo_mysql', 'type' => 'extension', 'expected' => true),
 		array('name' => 'gd', 'type' => 'extension', 'expected' => true),
-		array('name' => 'Mcrypt', 'type' => 'extension', 'expected' => true),
+		array('name' => 'Mcrypt', 'type' => 'extension', 'expected' => false),
 		array('name' => 'mysql_real_escape_string', 'type' => 'extension', 'expected' => false),
 		array('name' => 'curl', 'type' => 'extension', 'expected' => true),
 		array('name' => 'putenv', 'type' => 'function', 'expected' => true),
